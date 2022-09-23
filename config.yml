@@ -1,0 +1,43 @@
+baseURL: ""
+languageCode: en-us
+title: Jackie Yang 
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 10
+
+params:
+    homeInfoParams:
+        Title: Welcome to My Personal Website 
+        Content: Jackie Yang is an asipring software developer and a  junior at StonyBrook University where he is pursuing a bachelors degree in computer science. He is a receiver of the presidential scholarship which allows him to pursue and learn many languages such as Java and Python. His interest lies application and web development. Jackie is currently working as IT technician at the DIvision of Informational Technology at StonyBrook and upon completion of this degree, he plans to enter the industry and create applications for companies. 
+    socialIcons:
+      - name: github
+        url: "https://github.com/JackieYang0627"
+      - name: linkedin
+        url: "https://www.linkedin.com/in/jackie-yang-6a462018b/"
+  
+
+    ShowReadingTime: true
+
+    ShowBreadCrumbs: false
+  
+
+
+
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+
+
+
+
+
+
